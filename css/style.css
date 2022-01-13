@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F0EFF4;
+  color: #000;
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+nav {
+  background-color: #0E0E52;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  border-bottom: 1px solid grey;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0:
+  z-index:100;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px 0 20px;
+  border-bottom: 2px solid grey;
+  padding-bottom: 5px;
+}
+
+nav a:hover {
+  padding-bottom: 2px;
+  border-bottom-color: #C03221;
+/*  color: #C03221;*/
+  font-size: 20px;
+}
+
+
+footer {
+  background-color: #0E0E52;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+em {
+  font-weight: 600;
+}
+
+.my-name {
+  background-color: #C03221;
+  color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.fab {
+  font-size: 40px;
+}
+
+.project-tile {
+  margin: 10px;
+  max-width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.project-tile:hover {
+  transform: scale(1.05);
+}
+
+
+.project-tile img{
+  max-width: 100%;
+}
+
+.project-tile a {
+  text-decoration: none;
+  color: #000;
+}
+
+.project-tile p {
+  font-weight: bold;
+}
+
+#projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 810px;
+  margin: 20px auto 0;
+}
+
+#welcome-section {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 50px;
+}
+
+#welcome-section > p {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+#projects {
+  height: 100vh;
+  text-align: center;
+}
+
+#contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#contact > h2 {
+  margin-bottom: 0;
+}
+
+#contact > p {
+  margin-top: 0;
+  padding: 4px 0 8px 0;
+}
+
+#name-link-contact {
+  text-decoration: none;
+}
+
+#name-link-contact:hover {
+  font-size: 40px;
+}
+
+#contacts-box {
+  border: 2px solid #C03221;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 80%;
+}
+
+#contacts-box ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#contacts-box > ul > li {
+  list-style: none;
+  margin-right: 40px;
+}
+
+#contacts-box > ul > li > a {
+  color: #000;
+  font-size: 20px;
+  margin: 10px;
+  padding-left: 5px;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+#contacts-box > ul > li > a > i {
+  margin-right: 4px;
+  margin-bottom: 5px;
+}
+
+#contacts-box > ul > li > a:hover {
+  font-size: 25px;
+}

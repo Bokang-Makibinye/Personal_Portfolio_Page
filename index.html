@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Personal Portfolio Webpage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+
+        @media (max-width: 600px) {
+          #welcome-section  p {
+            font-size: 20px;
+          }
+          #name-link-contact:hover {
+            font-size: 30px;
+          }
+
+          section {
+            padding: 20px;
+          }
+        }
+
+    </style>
+
+  </head>
+  <body>
+    <nav id="navbar">
+      <a class="profile-links" href="#welcome-section">About</a>
+      <a class="profile-links" href="#projects">Projects</a>
+      <a class="profile-links" href="#contact">Contact Me</a>
+    </nav>
+
+    <section id="welcome-section">
+      <h1>Hi, &#128075; </h1>
+      <p>My name is <a id="name-link-contact" href="#contact"><span class="my-name">Bokang Makibinye</span></a>.</p>
+      <p>I am a self-taught Web Developer &#127947;</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div id="projects-container">
+      <div class="project-tile">
+        <a href="https://bokang-makibinye.github.io/Technical_Documentation_Page/" target="_blank">
+          <img src="images/tech_doc_ss.png" alt="A Picture of one of my projects">
+          <p>Technical Documentation Page</p></a>
+        </div>
+        <div class="project-tile">
+        <a href="https://bokang-makibinye.github.io/product_landing_page/" target="_blank">
+          <img src="images/landing_page.jpg" alt="A Picture of one of my projects">
+          <p>Landing Page</p></a>
+          </div>
+          <div class="project-tile">
+        <a href="https://bokang-makibinye.github.io/Tribute_Page/" target="_blank">
+          <img src="images/tribute_page.jpg" alt="A Picture of one of my projects">
+          <p>Tribute Page</p></a>
+        </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+      <h2>Contacts</h2>
+      <p>Where to find me</p>
+      <div id="contacts-box">
+
+        <ul>
+          <li><a href="https://www.github.com/Bokang-Makibinye/" id="profile-link" target="_blank"><i class="fab fa-github-square"></i>GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/bokang-makibinye-16404b224/" target="_blank"><i class="fab fa-linkedin"></i></i>LinkedIn</a></li>
+          <li><a href="https://www.twitter.com/devorbs/" target="_blank"><i class="fab fa-twitter-square"></i>Twitter</a></li>
+        </ul>
+      </div>
+
+    </section>
+
+    <footer>Made with <i class="fas fa-heart"></i> By <em>Bokang Makibinye</em></footer>
+
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+  </script>
+  </body>
+</html>
